@@ -1,0 +1,258 @@
+/*Custom CSS*/     
+
+#page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8 {
+    /*background-image:linear-gradient(#a6d2ef, white);*/
+    background-image: url(../img/cup2.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-color: #f7f7f7;
+}
+
+#buttoncontainer {
+    width:100%;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+#buttoncontainer > button {
+    background-color:transparent;
+    width:50px;
+    border-radius:100px;
+    border:1px solid white;
+    display:inline-block;
+}
+
+
+
+
+
+#inputNew-button13, #nearby-button3, #entryDetails-button10, #entryDetails-button11, #inputNew-button6, #inputNew-button7,
+#compare-button4, #compare-button5, #entryDetails-button12, #entryDetails-button13
+{
+display:block;
+    margin:auto;
+    margin-bottom:20px;
+    /*background-color:#ce8b54;*/
+    font-size:15px;
+    font-family:'raleway', sans-serif;
+    width:200px;
+    border-radius:20px;
+}
+
+#page2 .item-thumbnail-left {
+    text-align:center;
+}
+
+
+
+@media only screen and (min-width: 500px) {
+#page2 .item-thumbnail-left {
+    width:50%;
+    display:inline-block;
+}
+    
+    #page2 .item-thumbnail-left:nth-child(odd) {
+        float:left;
+    }
+     #page2 .item-thumbnail-left:nth-child(even) {
+        float:right;
+    }
+  #page2 .item-thumbnail-left h2, #page2 .item-thumbnail-left p  {
+    text-align:center;
+}
+}
+
+@media only screen and (max-width:500px) {
+#page2 .item-thumbnail-left h2, #page2 .item-thumbnail-left p  {
+    text-align:right;
+}
+}
+
+.entryHeader {
+    background-color: transparent;
+    margin:0;
+    width:100%;
+}
+
+.entryHeader p {
+    color:white;
+    font-size:1em;
+    font-family: 'Open Sans', sans-serif;
+    padding:0px 10px;
+}
+
+#stats {
+    width:100%;
+    display:block;
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.statbox {
+    width:50%;
+    display:inline-block;
+    text-align: center;
+    padding:10px 0px;
+    margin-bottom:20px;
+    background-color:#bd7e4a;
+}
+
+.statbox:first-child {
+    float:left;
+}
+.statbox:last-child {
+    float:right;
+}
+
+
+
+.statbox h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color:white;
+}
+
+.statbox p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color:white;
+}
+
+#entryDetails-button-bar3 {
+    display: none;
+}
+
+#uploadedPic {
+    max-height:300px;
+    max-width:49%;
+    margin:0px auto;
+    display:none;
+}
+
+
+#map {
+    height:70%;
+    width:90%;
+    display: block;
+    margin: 250px auto;
+    
+}
+
+#inputNew-form3 > *, #top5-form2 > .item-thumbnail-left, #compare-form1 > * {
+    background-color: white;
+    margin-bottom:1px;
+}
+
+#noEntriesBox, #noEntriesBox2 {
+    width:100%;
+    overflow:hidden;
+    height:auto;
+    border:1px dashed #bd7e4a;
+    padding: 20px;
+}
+
+#noEntriesBox p, #noEntriesBox2 p {
+    color:#83502e;
+    font-family:'Open Sans', sans-serif;
+    font-size:1em;
+    text-align:center;
+}
+
+.tabs-stable > .tabs > .white {
+    /*border-color: #b2b2b2;*/
+  background-color: #f8f8f8;
+  /*background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);*/
+  color: #444;
+}
+
+.tabs-stable > .tabs > .black {
+    border-color: #b2b2b2;
+  background-color:#187fa8;
+  /*background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);*/
+  color: white;
+}
+
+#mapSwitcher {
+    width:80%;
+    display:block;
+    margin: 0px auto;
+    cursor:pointer;
+}
+
+.mapTab {
+    width:50%;
+    border: 1px solid white;
+}
+
+.mapTab > p {
+    font-size:15px;
+    text-align: center;
+}
+
+.mapTab:first-child {
+    float:left;
+    background-color:#d2a56d;
+    color: white;
+}
+
+.mapTab:last-child {
+    float:right;
+    color:#d2a56d;
+}
+
+#searchbox {
+    margin-bottom:10px;
+}
+
+#logoheader {
+    width:100%;
+    position:relative;
+}
+
+#logoheader img {
+    /*position:absolute;*/
+    height:100px;
+    padding:10px;
+    display:block;
+    margin:0px auto;
+}
+
+#addNewButton {
+    display:inline-block;
+    position:absolute;
+    right: 0px;
+    top:20px;
+}
+
+#deleteAllButton {
+    display:inline-block;
+    position:absolute;
+    left: 0px;
+    top:20px;
+}
+
+
+@media only screen and (max-width:450px) {
+    #addNewButton, #deleteAllButton {
+        display:inline-block;
+        position:static;
+        width:49%;
+    }
+}
+
+#enlrPic {
+    width:50%;
+    display:block;
+    margin: 0px auto;
+}
+
+.detailsBox {
+    width:100%;
+    background-color:white;
+}
+
+
+
